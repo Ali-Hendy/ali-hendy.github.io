@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ملف علي هندي المهني في هندسة الأتمتة الصناعية، باللغتين العربية والإنجليزية."
+    />
+    <title>علي هندي | مهندس أتمتة صناعية طموح</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav" aria-label="التنقل الرئيسي" data-i18n-aria-label="nav.aria">
+        <a class="brand" href="#home" aria-label="الصفحة الرئيسية لعلي هندي" data-i18n-aria-label="aria.home">
+          <img class="brand-mark" src="images/logo.png" alt="" aria-hidden="true" />
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة" data-i18n-aria-label="nav.openMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel">
+          <div class="nav-links">
+            <a href="#home" class="active" data-i18n="nav.home">الرئيسية</a>
+            <a href="#about" data-i18n="nav.about">من أنا</a>
+            <a href="#skills" data-i18n="nav.skills">المهارات</a>
+            <a href="#projects" data-i18n="nav.projects">المشاريع</a>
+            <a href="#learning" data-i18n="nav.learning">رحلة التعلم</a>
+            <a href="#contact" data-i18n="nav.contact">تواصل</a>
+          </div>
+
+          <div class="nav-tools">
+            <button class="lang-toggle" type="button" data-lang-toggle aria-label="التبديل إلى الإنجليزية">
+              EN
+            </button>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to Dark Mode">
+              <span class="theme-icon" aria-hidden="true">☾</span>
+              <span class="sr-only" data-i18n="theme.label">التبديل إلى الوضع الداكن</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-shell">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="hero-content">
+              <p class="eyebrow" data-i18n="hero.greeting">مرحباً، أنا</p>
+              <h1>
+                <span class="name-display name-display-en">Ali Hendy</span>
+                <span class="name-display name-display-ar">علي هندي</span>
+              </h1>
+              <h2 class="title" data-i18n="hero.title">مهندس طموح في الأتمتة الصناعية | المتحكمات المنطقية القابلة للبرمجة (PLC) وأنظمة التحكم الكهربائي</h2>
+              <p class="intro" data-i18n="hero.intro">
+                أطوّر معرفتي ومهاراتي العملية في الأتمتة الصناعية، وبرمجة المتحكمات المنطقية القابلة للبرمجة (PLC)، ودوائر التحكم الكهربائي، وأنظمة التحكم الصناعية.
+              </p>
+              <p class="hero-supporting" data-i18n="hero.supporting">
+                أركّز في تعلّمي على تكامل المتحكمات المنطقية القابلة للبرمجة (PLC) والمستشعرات والمحركات، وأطوّر مهاراتي في تصميم الأنظمة واستكشاف الأعطال ومحاكاة العمليات.
+              </p>
+
+              <div class="cta-row">
+                <a href="#projects" class="btn btn-primary" data-i18n="hero.primaryCta">استكشف مشاريعي</a>
+                <a
+                  href="https://www.linkedin.com/in/alihendy1"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="hero.secondaryCta"
+                >
+                  تواصل معي على لينكدإن
+                </a>
+              </div>
+
+              <div class="social-links" aria-label="روابط التواصل الاجتماعي" data-i18n-aria-label="aria.social">
+                <a href="https://www.linkedin.com/in/alihendy1" target="_blank" rel="noopener noreferrer" aria-label="حساب علي هندي على LinkedIn" data-i18n-aria-label="aria.linkedin">LinkedIn</a>
+                <a href="#contact" aria-label="انتقل إلى قسم التواصل" data-i18n-aria-label="aria.contact" data-i18n="nav.contact">تواصل معي</a>
+                <a href="#projects" aria-label="انتقل إلى قسم المشاريع" data-i18n-aria-label="aria.projects" data-i18n="nav.projects">المشاريع</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-card industrial-card">
+              <img
+                class="hero-profile-photo"
+                src="images/profile.jpg"
+                alt="الصورة الشخصية لعلي هندي"
+                data-i18n-alt="hero.photoAlt"
+              />
+              <div class="profile-meta">
+                <span class="meta-label" data-i18n="hero.focusLabel">مجال الاهتمام</span>
+                <span class="meta-value" data-i18n="hero.focusValue">التحكم الصناعي والمتحكمات المنطقية القابلة للبرمجة (PLC)</span>
+              </div>
+              <div class="mini-list">
+                <div>
+                  <span class="mini-label" data-i18n="hero.statusLabel">الحالة</span>
+                  <strong data-i18n="hero.statusValue">أواصل التعلّم والتطوير</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell">
+        <div class="container section-heading">
+          <p class="eyebrow" data-i18n="about.eyebrow">لمحة موجزة</p>
+          <h2 data-i18n="about.title">نبذة عني</h2>
+        </div>
+        <div class="container about-grid">
+          <div class="info-card">
+            <p data-i18n="about.paragraph1">
+              أنا أعمل على بناء مساري المهني في مجال الأتمتة الصناعية، مع اهتمام خاص بفهم كيفية إدارة الآلات والعمليات الصناعية من خلال الدوائر الكهربائية، منطق PLC، المستشعرات، المحركات، والأنظمة التحكمية.
+            </p>
+            <p data-i18n="about.paragraph2">
+              أنا أستكشف كيف ترتبط الدوائر الكهربية، عناصر التحكم، أجهزة القياس، وبرامج التحكم في بناء أنظمة صناعية موثوقة وآمنة. أهدف إلى تطوير مهاراتي في تصميم الأنظمة، تشخيص الأعطال، والمحاكاة العملية لتقوية فهمي العملي في هذا المجال.
+            </p>
+          </div>
+          <div class="stats-panel">
+            <div class="stat">
+              <strong data-i18n="about.statWord1">التعلّم</strong>
+              <span data-i18n="about.stat1">مسار تعلّم مستمر</span>
+            </div>
+            <div class="stat">
+              <strong>PLC</strong>
+              <span data-i18n="about.stat2">منطق تحكم</span>
+            </div>
+            <div class="stat">
+              <strong data-i18n="about.statWord3">الأنظمة</strong>
+              <span data-i18n="about.stat3">أنظمة صناعية</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell muted">
+        <div class="container section-heading">
+          <p class="eyebrow" data-i18n="skills.eyebrow">المهارات والاهتمامات</p>
+          <h2 data-i18n="skills.title">مجالات الدراسة والاهتمام</h2>
+        </div>
+        <div class="container skill-grid">
+          <article class="skill-card">
+            <span class="skill-tag">01</span>
+            <h3 data-i18n="skills.skill1Title">التحكم الكهربائي</h3>
+            <ul class="skill-list">
+              <li data-i18n="skills.skill1Item1">منطق المرحلات</li>
+              <li data-i18n="skills.skill1Item2">الكونتاكتورات ونقاطها المساعدة</li>
+              <li data-i18n="skills.skill1Item3">المؤقتات والعدادات</li>
+              <li data-i18n="skills.skill1Item4">بادئات تشغيل المحركات وأجهزة الحماية</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-tag">02</span>
+            <h3 data-i18n="skills.skill2Title">المتحكمات المنطقية القابلة للبرمجة (PLC) والأتمتة</h3>
+            <ul class="skill-list">
+              <li data-i18n="skills.skill2Item1">أساسيات المتحكمات المنطقية القابلة للبرمجة (PLC)</li>
+              <li data-i18n="skills.skill2Item2">برمجة السلم (Ladder Logic)</li>
+              <li data-i18n="skills.skill2Item3">المدخلات والمخرجات الرقمية والتشابكات</li>
+              <li data-i18n="skills.skill2Item4">تشخيص الأعطال</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-tag">03</span>
+            <h3 data-i18n="skills.skill3Title">الأنظمة الصناعية</h3>
+            <ul class="skill-list">
+              <li data-i18n="skills.skill3Item1">المستشعرات والمشغلات</li>
+              <li data-i18n="skills.skill3Item2">أساسيات واجهات التشغيل البشرية (HMI) وأنظمة SCADA</li>
+              <li data-i18n="skills.skill3Item3">مغيرات التردد (VFD) والتحكم في المحركات</li>
+              <li data-i18n="skills.skill3Item4">أجهزة القياس الصناعية</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-tag">04</span>
+            <h3 data-i18n="skills.skill4Title">الأدوات الهندسية</h3>
+            <ul class="skill-list">
+              <li data-i18n="skills.skill4Item1">برامج المتحكمات المنطقية القابلة للبرمجة (PLC)</li>
+              <li data-i18n="skills.skill4Item2">أدوات إعداد المخططات الكهربائية</li>
+              <li data-i18n="skills.skill4Item3">المحاكاة واستكشاف الأعطال</li>
+              <li data-i18n="skills.skill4Item4">توثيق أنظمة التحكم</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section-shell">
+        <div class="container section-heading">
+          <p class="eyebrow" data-i18n="projects.eyebrow">أعمال ومشاريع</p>
+          <h2 data-i18n="projects.title">مشاريعي التعليمية الحالية</h2>
+        </div>
+        <div class="container project-grid">
+          <article class="project-card">
+            <div class="project-visual" aria-hidden="true"><span>01</span></div>
+            <div class="project-body">
+              <div class="project-header">
+                <h3 data-i18n="projects.project1Title">بادئ تشغيل المحرك المباشر (DOL)</h3>
+                <span data-i18n="projects.project1Category">مفهوم دائرة تحكم</span>
+              </div>
+              <p data-i18n="projects.project1Text">مشروع دراسي لفهم أساسيات التحكم في المحركات وأجهزة الحماية وتسلسل بدء التشغيل.</p>
+              <div class="project-meta">
+                <span data-i18n="projects.project1Tag1">بادئ تشغيل المحرك</span>
+                <span data-i18n="projects.project1Tag2">منطق الحماية</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual" aria-hidden="true"><span>02</span></div>
+            <div class="project-body">
+              <div class="project-header">
+                <h3 data-i18n="projects.project2Title">التحكم في دوران المحرك أمامياً وعكسياً</h3>
+                <span data-i18n="projects.project2Category">التحكم الكهربائي</span>
+              </div>
+              <p data-i18n="projects.project2Text">تمرين مفاهيمي لفهم دوائر عكس الحركة والتشابكات واحتياطات سلامة المشغّل.</p>
+              <div class="project-meta">
+                <span data-i18n="projects.project2Tag1">منطق التشابك</span>
+                <span data-i18n="projects.project2Tag2">التحكم الآمن</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual" aria-hidden="true"><span>03</span></div>
+            <div class="project-body">
+              <div class="project-header">
+                <h3 data-i18n="projects.project3Title">محاكاة عملية باستخدام PLC</h3>
+                <span data-i18n="projects.project3Category">مفهوم تطبيقي في الأتمتة</span>
+              </div>
+              <p data-i18n="projects.project3Text">مشروع تجريبي لاستكشاف برمجة السلم والتتابع والمستشعرات ومحاكاة العمليات الصناعية.</p>
+              <div class="project-meta">
+                <span data-i18n="projects.project3Tag1">برمجة السلم</span>
+                <span data-i18n="projects.project3Tag2">المحاكاة</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="learning" class="section-shell muted">
+        <div class="container section-heading">
+          <p class="eyebrow" data-i18n="learning.eyebrow">التطوير المهني</p>
+          <h2 data-i18n="learning.title">رحلتي التعليمية</h2>
+        </div>
+        <div class="container timeline learning-grid">
+          <article class="timeline-item">
+            <span class="timeline-year">01</span>
+            <div class="timeline-content">
+              <h3 data-i18n="learning.item1Title">أساسيات التحكم الكهربائي</h3>
+              <p data-i18n="learning.item1Status">أتعلم حالياً</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-year">02</span>
+            <div class="timeline-content">
+              <h3 data-i18n="learning.item2Title">برمجة PLC ومخططات السلم</h3>
+              <p data-i18n="learning.item2Status">أتعلم حالياً</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-year">03</span>
+            <div class="timeline-content">
+              <h3 data-i18n="learning.item3Title">المستشعرات الصناعية والمشغلات</h3>
+              <p data-i18n="learning.item3Status">مهتم بالتعلم</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-year">04</span>
+            <div class="timeline-content">
+              <h3 data-i18n="learning.item4Title">أساسيات واجهات التشغيل البشرية (HMI) وأنظمة SCADA</h3>
+              <p data-i18n="learning.item4Status">مهتم بالتعلم</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell">
+        <div class="container section-heading">
+          <p class="eyebrow" data-i18n="contact.eyebrow">تواصل</p>
+          <h2 data-i18n="contact.title">تواصل معي</h2>
+        </div>
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <p data-i18n="contact.description">
+              أبني مساري المهني في الأتمتة الصناعية، وأرحب بالتواصل مع العاملين في مجالات المتحكمات المنطقية القابلة للبرمجة (PLC)، ولوحات التحكم، والأنظمة الكهربائية، وهندسة العمليات الصناعية.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span data-i18n="contact.linkedinLabel">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/alihendy1" target="_blank" rel="noopener noreferrer" aria-label="حساب علي هندي على LinkedIn" data-i18n-aria-label="aria.linkedin">linkedin.com/in/alihendy1</a>
+              </li>
+              <li>
+                <span data-i18n="contact.emailLabel">البريد الإلكتروني</span>
+                <a href="mailto:alihendy.eng@gmail.com" data-i18n="contact.emailValue">alihendy.eng@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" novalidate>
+            <label>
+              <span data-i18n="contact.nameField">الاسم</span>
+              <input type="text" name="name" required data-i18n-placeholder="form.namePlaceholder" placeholder="أدخل اسمك" />
+            </label>
+            <label>
+              <span data-i18n="contact.emailField">البريد الإلكتروني</span>
+              <input type="email" name="email" required data-i18n-placeholder="form.emailPlaceholder" placeholder="أدخل عنوان بريدك الإلكتروني" />
+            </label>
+            <label>
+              <span data-i18n="contact.messageField">الرسالة</span>
+              <textarea name="message" rows="5" required data-i18n-placeholder="form.messagePlaceholder" placeholder="اكتب رسالتك"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary" data-i18n="contact.submit">إرسال الرسالة</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.copyright">© 2026 علي هندي</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/alihendy1" target="_blank" rel="noopener noreferrer" data-i18n="footer.linkedin">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
