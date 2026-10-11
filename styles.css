@@ -292,6 +292,10 @@ li {
     align-items: stretch;
   }
 
+  html[dir="rtl"] .hero-grid {
+    align-items: start;
+  }
+
   .hero-copy {
     display: flex;
   }
@@ -301,6 +305,11 @@ li {
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  /* Keep extra Arabic card wrapping from pushing the links below the English baseline. */
+  html[dir="rtl"] .hero-content {
+    min-height: min(38.9375rem, calc(50vw + 8.1rem));
   }
 
   .hero-content > * {
@@ -422,6 +431,14 @@ li {
   border: 1px solid var(--border);
   background: linear-gradient(180deg, var(--card), var(--section-surface));
   box-shadow: var(--shadow);
+}
+
+html[dir="rtl"] .profile-card {
+  container-type: inline-size;
+}
+
+html[dir="rtl"] .profile-card .hero-profile-photo {
+  max-height: calc(125cqw - 27.2px);
 }
 
 .industrial-card {
